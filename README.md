@@ -1,7 +1,7 @@
 # 基于隐私计算的联邦学习平台
 
 技术栈：
-- 客户端，服务端：
+- 客户端，服务端：python,pytorch,flower
 - 后端：JavaSpringBoot
 - 前端：
 - 接口测试：Apifox
