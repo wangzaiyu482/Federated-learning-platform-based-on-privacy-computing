@@ -1,0 +1,47 @@
+2025-04-02 17:19:28,264 - INFO - Starting Flower server, config: num_rounds=3, no round_timeout
+2025-04-02 17:19:28,311 - INFO - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2025-04-02 17:19:28,311 - INFO - [INIT]
+2025-04-02 17:19:28,311 - INFO - Requesting initial parameters from one random client
+2025-04-02 17:20:15,777 - INFO - Received initial parameters from one random client
+2025-04-02 17:20:15,777 - INFO - Starting evaluation of initial global parameters
+2025-04-02 17:20:15,777 - INFO - Evaluation returned no results (`None`)
+2025-04-02 17:20:15,777 - INFO - 
+2025-04-02 17:20:15,777 - INFO - [ROUND 1]
+2025-04-02 17:20:15,780 - INFO - configure_fit: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:23,937 - INFO - aggregate_fit: received 1 results and 0 failures
+2025-04-02 17:20:23,937 - INFO - Round 1, Client 0: Num examples = 1760, Accuracy = 0.5892045454545455, Loss = 0.6738518064672296
+2025-04-02 17:20:24,014 - INFO - configure_evaluate: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:25,810 - INFO - aggregate_evaluate: received 1 results and 0 failures
+2025-04-02 17:20:25,810 - INFO - Round 1, Client 0 (Validation): Num examples = 440, Accuracy = 0.5636363636363636, Loss = 0.6729973767484937, Precision = 0.0
+2025-04-02 17:20:25,811 - INFO - 
+2025-04-02 17:20:25,811 - INFO - [ROUND 2]
+2025-04-02 17:20:25,811 - INFO - configure_fit: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:33,684 - INFO - aggregate_fit: received 1 results and 0 failures
+2025-04-02 17:20:33,684 - INFO - Round 2, Client 0: Num examples = 1760, Accuracy = 0.6670454545454545, Loss = 0.6003547159108249
+2025-04-02 17:20:33,747 - INFO - configure_evaluate: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:34,965 - INFO - aggregate_evaluate: received 1 results and 0 failures
+2025-04-02 17:20:34,965 - INFO - Round 2, Client 0 (Validation): Num examples = 440, Accuracy = 0.7727272727272727, Loss = 0.4993907404797418, Precision = 0.6666666666555555
+2025-04-02 17:20:34,966 - INFO - 
+2025-04-02 17:20:34,966 - INFO - [ROUND 3]
+2025-04-02 17:20:34,966 - INFO - configure_fit: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:42,850 - INFO - aggregate_fit: received 1 results and 0 failures
+2025-04-02 17:20:42,850 - INFO - Round 3, Client 0: Num examples = 1760, Accuracy = 0.7636363636363637, Loss = 0.5106669474731792
+2025-04-02 17:20:42,910 - INFO - configure_evaluate: strategy sampled 1 clients (out of 1)
+2025-04-02 17:20:44,181 - INFO - aggregate_evaluate: received 1 results and 0 failures
+2025-04-02 17:20:44,181 - INFO - Round 3, Client 0 (Validation): Num examples = 440, Accuracy = 0.7681818181818182, Loss = 0.4942907520702907, Precision = 0.9999999999666667
+2025-04-02 17:20:44,183 - INFO - 
+2025-04-02 17:20:44,183 - INFO - [SUMMARY]
+2025-04-02 17:20:44,183 - INFO - Run finished 3 round(s) in 28.41s
+2025-04-02 17:20:44,184 - INFO - 	History (loss, distributed):
+2025-04-02 17:20:44,184 - INFO - 		round 1: 0.6729973554611206
+2025-04-02 17:20:44,184 - INFO - 		round 2: 0.49939075112342834
+2025-04-02 17:20:44,184 - INFO - 		round 3: 0.4942907392978668
+2025-04-02 17:20:44,184 - INFO - 	History (metrics, distributed, fit):
+2025-04-02 17:20:44,184 - INFO - 	{'accuracy': [(1, 0.5892045454545455),
+2025-04-02 17:20:44,184 - INFO - 	              (2, 0.6670454545454545),
+2025-04-02 17:20:44,184 - INFO - 	              (3, 0.7636363636363637)]}
+2025-04-02 17:20:44,184 - INFO - 	History (metrics, distributed, evaluate):
+2025-04-02 17:20:44,184 - INFO - 	{'accuracy': [(1, 0.5636363636363636),
+2025-04-02 17:20:44,184 - INFO - 	              (2, 0.7727272727272727),
+2025-04-02 17:20:44,184 - INFO - 	              (3, 0.7681818181818182)]}
+2025-04-02 17:20:44,184 - INFO - 

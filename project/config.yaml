@@ -1,0 +1,11 @@
+# 联邦学习配置
+federated:
+  num_epochs: 3
+  server_address: 127.0.0.1:8078
+  num_rounds: 3
+  num_clients: 1
+  fraction_fit: 1.0
+  fraction_evaluate: 1.0
+  min_fit_clients: 1
+  min_evaluate_clients: 1
+  min_available_clients: 1
