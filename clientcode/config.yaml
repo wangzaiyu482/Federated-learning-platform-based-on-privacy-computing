@@ -1,0 +1,15 @@
+# 数据集配置
+data:
+  csv_file_path: D:\Dataset\data\train_labels.csv
+  image_folder_path: D:\Dataset\data\train
+  train_ratio: 0.8
+  val_ratio: 0.2
+
+# 模型配置
+model:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
+  weight_decay: 1e-5
+  step_size: 10
+  gamma: 0.1
